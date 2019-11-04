@@ -1,16 +1,10 @@
 matrix:
   include:
-    
     - language: cpp
       compiler: clang
       
-      - language: python
+    - language: python
       python: 
         - 3.7
       script:
         - python setup.py install
-
-     
-
-notifications:
-  email: false
