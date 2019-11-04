@@ -1,7 +1,7 @@
 matrix:
   include:
     - language: cpp
-      compiler: clang
+      compiler: gcc
       
     - language: python
       python: 
