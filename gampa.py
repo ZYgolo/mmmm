@@ -1,0 +1,2 @@
+import helloword
+print(helloword)
