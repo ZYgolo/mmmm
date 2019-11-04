@@ -1,2 +1,2 @@
-import helloword
-print(helloword)
+import helloworld
+print(helloworld)
