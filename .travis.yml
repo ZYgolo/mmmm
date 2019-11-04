@@ -1,10 +1,17 @@
+language: python
+
+python:
+  - "3.7"
 matrix:
   include:
-    - language: cpp
-      compiler: gcc
-      
-    - language: python
-      python: 
-        - 3.7
-      script:
-        - python setup.py install
+    - python: 3.7
+      dist: xenial
+      sudo: true
+
+
+script:
+- python setup.py install
+- python gampa.py
+
+
+ # or any other command you'd like to run your tests with
