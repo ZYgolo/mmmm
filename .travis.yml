@@ -12,6 +12,7 @@ matrix:
 script:
 - python setup.py install
 - pip list
+- python gampa.py
 
 
  # or any other command you'd like to run your tests with
